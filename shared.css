@@ -1,0 +1,91 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+
+
+a.nav-button  {
+    background-color: #30a349;
+    color: white;
+    padding: 14px 32px;
+    border-radius: 10px;
+    border: #30a349;
+    text-decoration: none;
+
+    
+}
+
+.nav-color {
+  background-color: #1f632eb5 ;
+}
+
+.calltoaction {
+
+  background: url(/Images/CTA-darken.png);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+ 
+}
+
+.calltoaction_messages {
+  margin-top: 20%;
+  color: white;
+  background: #30a349af;
+  padding: 20px 40px 20px 40px;
+  border-radius: 20px;
+}
+
+.calltoaction_button {
+  background-color: #30a349;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 10px;
+  border: #30a349;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+Footer {
+background-color: black;
+height: 400px;
+width: 100%;
+}
+
+.footer-logo {
+  height: 100px;
+  width: 100px;
+}
+
+.footer-navigate{
+  color: #30a349;
+  font-weight: bold;
+}
+
+.navigation-list a{
+  text-decoration: none;
+  color: white;
+}
+
+.sub-footer {
+  background-color:  #30a349;
+  height: 30px;
+  width: 100%;
+}
+
+.newsletter-form{
+  width: 80% !important;
+}
+
+.newsletter-button {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 14px 60px;
+  background-color: #30a349;
+  border-radius: 10px;
+  border: #30a349;
+  display: inline-block;
+}
