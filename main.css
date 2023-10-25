@@ -9,6 +9,19 @@
   height: 800px;
 }
 
+@media screen and (max-width: 48rem) {
+  .hero-section {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 26.5rem) {
+  .hero-section {
+    height: 400px;
+  }
+}
+
+
 .hero-page_heading {
   margin-top: 40%;
 }
@@ -32,6 +45,15 @@
 .learn-more_paragraph {
   font-size: 20px;
 }
+
+
+@media screen and (max-width: 48rem) {
+  .learn-more_image {
+    height: 300px;
+  }
+}
+
+
 
 .benefits-img1 {
   background: url(/Images/benifits1.jpg);

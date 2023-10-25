@@ -1,32 +1,25 @@
-
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-
-
-a.nav-button  {
-    background-color: #30a349;
-    color: white;
-    padding: 14px 32px;
-    border-radius: 10px;
-    border: #30a349;
-    text-decoration: none;
-
-    
+a.nav-button {
+  background-color: #30a349;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 10px;
+  border: #30a349;
+  text-decoration: none;
 }
 
 .nav-color {
-  background-color: #1f632eb5 ;
+  background-color: #1f632eb5;
 }
 
 .calltoaction {
-
   background: url(/Images/CTA-darken.png);
   height: 400px;
   width: 100%;
   background-size: cover;
- 
 }
 
 .calltoaction_messages {
@@ -49,9 +42,15 @@ a.nav-button  {
 }
 
 Footer {
-background-color: black;
-height: 400px;
-width: 100%;
+  background-color: black;
+  height: 400px;
+  width: 100%;
+}
+
+@media screen and (max-width: 26.5rem) {
+  Footer {
+    height: 210vh;
+  }
 }
 
 .footer-logo {
@@ -59,24 +58,30 @@ width: 100%;
   width: 100px;
 }
 
-.footer-navigate{
+.footer-navigate {
   color: #30a349;
   font-weight: bold;
 }
 
-.navigation-list a{
+.navigation-list a {
   text-decoration: none;
   color: white;
 }
 
 .sub-footer {
-  background-color:  #30a349;
+  background-color: #30a349;
   height: 30px;
   width: 100%;
 }
 
-.newsletter-form{
+.newsletter-form {
   width: 80% !important;
+}
+
+@media screen {
+  .newsletter-form {
+    width: 100% !important;
+  }
 }
 
 .newsletter-button {
