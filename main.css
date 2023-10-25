@@ -56,7 +56,7 @@
 
 
 .benefits-img1 {
-  background: url(/Images/benifits1.jpg);
+  background: url(Images/benifits1.jpg);
   background-size: cover;
   height: 250px;
   width: 100%;
@@ -64,7 +64,7 @@
   position: relative;
 }
 .benefits-img2 {
-  background: url(/Images/benefits2.jpg);
+  background: url(Images/benefits2.jpg);
   background-size: cover;
   height: 250px;
   width: 100%;
@@ -73,7 +73,7 @@
 }
 
 .benefits-img3 {
-  background: url(/Images/benefits3.jpg);
+  background: url(Images/benefits3.jpg);
   background-size: cover;
   height: 250px;
   width: 100%;
@@ -82,7 +82,7 @@
 }
 
 .benefits-img4 {
-  background: url(/Images/benefits4.jpg);
+  background: url(Images/benefits4.jpg);
   background-size: cover;
   height: 250px;
   width: 100%;
@@ -91,7 +91,7 @@
 }
 
 .benefits-img5 {
-  background: url(/Images/benefits5.jpg);
+  background: url(Images/benefits5.jpg);
   background-size: cover;
   height: 250px;
   width: 100%;
@@ -100,7 +100,7 @@
 }
 
 .benefits-img6 {
-  background: url(/Images/benefits6.jpg);
+  background: url(Images/benefits6.jpg);
   background-size: cover;
   height: 250px;
   width: 100%;
@@ -109,7 +109,7 @@
 }
 
 .benefits-img7 {
-  background: url(/Images/benefits7.jpg);
+  background: url(Images/benefits7.jpg);
   background-size: cover;
   height: 250px;
   width: 100%;
