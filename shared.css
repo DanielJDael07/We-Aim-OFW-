@@ -16,7 +16,7 @@ a.nav-button {
 }
 
 .calltoaction {
-  background: url(/Images/CTA-darken.png);
+  background: url(Images/CTA-darken.png);
   height: 400px;
   width: 100%;
   background-size: cover;
