@@ -15,6 +15,12 @@ a.nav-button {
   background-color: #1f632eb5;
 }
 
+@media screen and (min-width:992px) and (max-width:1199px) {
+  .navbar-nav{
+    width: 1000px;
+  }
+}
+
 .calltoaction {
   background: url(Images/CTA-darken.png);
   height: 400px;
