@@ -47,9 +47,9 @@ Footer {
   width: 100%;
 }
 
-@media screen and (max-width: 26.5rem) {
+@media screen and (max-width: 425px) {
   Footer {
-    height: 210vh;
+    height: 180vh;
   }
 }
 
