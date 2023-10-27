@@ -47,7 +47,7 @@ Footer {
   width: 100%;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   Footer {
     height: 180vh;
   }
@@ -78,12 +78,6 @@ Footer {
   width: 80% !important;
 }
 
-@media screen {
-  .newsletter-form {
-    width: 100% !important;
-  }
-}
-
 .newsletter-button {
   text-decoration: none;
   color: white;
@@ -94,3 +88,15 @@ Footer {
   border: #30a349;
   display: inline-block;
 }
+
+
+@media screen and (max-width:767px) {
+  .newsletter-form {
+    width: 100% !important;
+  }
+  .newsletter-button {
+    display: block;
+    text-align: center;
+  }
+}
+
