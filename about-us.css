@@ -91,3 +91,12 @@
   border-radius: 16px;
   width: 80%;
 }
+
+.founders-message_pic {
+width: 70%;
+height: 400px;
+}
+
+.founders-message_paragraph {
+  font-size: 20px;
+}
