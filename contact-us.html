@@ -64,7 +64,7 @@
                 <a
                   class="nav-link active text-light"
                   aria-current="page"
-                  href="/html/contact-us.html"
+                  href="contact-us.html"
                   >Contact Us</a
                 >
               </li>
@@ -96,29 +96,29 @@
               <div class="col-md-6">
                   <div class="row gx-4">
                       <div class="col-md-3 col-3">
-                        <i class="fa-solid fa-magnifying-glass magnifying-icon text-center " style="color: #30a349;"></i>
+                        <i class="fa-solid fa-magnifying-glass icon text-center " style="color: #30a349;"></i>
                       </div>
                       <div class="col-md-9 col-9">
-                          <h5>Learn More</h5>
+                          <h5 class="icon-description">Learn More</h5>
                           <p>give us a call, send us an email or fill out the form and we will reach out to you.</p>
                       </div>
                   </div>
                   <div class="row gx-4">
                     <div class="col-md-3 col-3">
-                      <i class="fa-solid fa-magnifying-glass magnifying-icon text-center " style="color: #30a349;"></i>
+                      <i class="fa-solid fa-phone icon text-center " style="color: #30a349;"></i>
                     </div>
                     <div class="col-md-9 col-9">
-                        <h5>Learn More</h5>
-                        <p>give us a call, send us an email or fill out the form and we will reach out to you.</p>
+                        <h5 class="icon-description">Call Us</h5>
+                        <p>0922 2222 2222</p>
                     </div>
                 </div>
                 <div class="row gx-4">
                   <div class="col-md-3 col-3">
-                    <i class="fa-solid fa-magnifying-glass magnifying-icon text-center " style="color: #30a349;"></i>
+                    <i class="fa-solid fa-envelope icon text-center " style="color: #30a349;"></i>
                   </div>
                   <div class="col-md-9 col-9">
-                      <h5>Learn More</h5>
-                      <p>give us a call, send us an email or fill out the form and we will reach out to you.</p>
+                      <h5 class="icon-description">Send an Email</h5>
+                      <p>info@weaimofw.com</p>
                   </div>
               </div>
               </div>
@@ -128,23 +128,28 @@
                       <div class="row ">
                         <div class="col-md-6 col-12 mt-2 ">
                           <label for="First Name">First Name</label>
-                          <input type="text" class="form-control "  name="data[First Name]"required>
+                          <input type="text" class="form-control "  id="first-name" placeholder="First Name"  name="data[First Name]"required>
                         </div>
                         <div class="col-md-6 col-12  mt-2 ">
                           <label for="Last Name">Last Name</label>
-                          <input type="text" class="form-control " name="data[Last Name]"required>
+                          <input type="text" class="form-control " id="last-name" placeholder="Last Name"  name="data[Last Name]"required>
                         </div>
                         <div class="col-md-6 col-12   mt-2  ">
                           <label for="Email">Email</label>
-                          <input type="email" class="form-control" id="email" placeholder="Enter email" name="data[Email]"required>
+                          <input type="email" class="form-control" id="email" placeholder="Enter Email" name="data[Email]"required>
                         </div>
                         <div class="col-md-6 col-12   mt-2  ">
                           <label for="Your Business Name">Phone Number</label>
-                          <input type="text" class="form-control " name="data[Your Business Name]"required>
+                          <input type="number" class="form-control " id="phone-number" placeholder="Phone Number" name="data[Phone Number]"required>
                         </div>
                         <div class="col-md-6 col-12   mt-2  ">
                           <label for="Phone">How did you know about us</label>
-                          <input type="number" class="form-control " name="data[Phone]"required>
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">Facebook</option>
+                            <option value="2">Word of Mouth</option>
+                            <option value="3">Website</option>
+                          </select>
                         </div>
                      
                         <div class="container  mt-2 ">
@@ -156,7 +161,7 @@
                               <textarea class="form-control" rows="3" id="comment" name="data[Messages]"></textarea>
                             </div>
                          <div class="text-center">
-                          <button type="submit" class="btn btn-primary button-form">Submit</button>
+                          <button type="submit" class="btn btn-success button-form">Submit</button>
                          </div>
                             
                           </form>
@@ -231,7 +236,7 @@
       </Footer>
       <section class="sub-footer">
   
-      </section>
+      </section> 
 
     <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

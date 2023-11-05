@@ -1,5 +1,5 @@
 .contact-us_hero {
-    background: url(Images/contact\ us.jpg);
+    background: url(/Images/Contact-us-darkenf.png);
     background-size: cover;
    background-position: 50%;
     width: 100%;
@@ -8,9 +8,10 @@
 
 .contact-us_heading {
     margin-top: 10%;
+    color: white;
 }
 
-.magnifying-icon {
+.icon {
     margin-top: 75%;
     vertical-align: top;
     margin-left: 50%;
@@ -21,16 +22,18 @@
     display: inline-block;
     font-size: 50px;
 }
-h5{
+.icon-description{
     display: inline-block;
     margin-top: 25%;
     margin-left: 8px;
+    color: white;
     
     
 }
 p {
-    display: inline-block;
+    /* display: inline-block; */
     margin-left: 8px;
+    color: white;
 }
 
 /* .magnifying-icon {
@@ -86,5 +89,13 @@ p {
     background-color: white;
     padding: 20px;
     border-radius: 20px;
+}
+
+
+
+@media screen and (max-width:425px) {
+   .contact-us_hero {
+    height: 1250px;
+   }
 }
 
