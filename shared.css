@@ -80,9 +80,7 @@ Footer {
   width: 100%;
 }
 
-.newsletter-form {
-  width: 80% !important;
-}
+
 
 .newsletter-button {
   text-decoration: none;
@@ -93,6 +91,20 @@ Footer {
   border-radius: 10px;
   border: #30a349;
   display: inline-block;
+}
+
+@media screen and (max-width:1199px)  {
+  .newsletter-button {
+
+    padding: 14px 40px;
+    
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .newsletter-form {
+    width: 80% !important;
+  }
 }
 
 
