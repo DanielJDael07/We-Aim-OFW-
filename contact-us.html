@@ -239,6 +239,26 @@
   
       </section> 
 
+
+      <!-------Start of connecting sheetdb API-------------->
+<script>
+  var form = document.getElementById('sheetdb-form');
+form.addEventListener("submit", e => {
+e.preventDefault();
+fetch(form.action, {
+    method : "POST",
+    body: new FormData(document.getElementById("sheetdb-form")),
+}).then(
+    response => response.json()
+).then((html) => {
+  // you can put any JS code here
+  window.open('contact-form-notification.html', '_blank');
+
+});
+});
+</script>
+<!-------End of connecting sheetdb API-------------->
+
   
     <!---------------------Start of back to top botton---------------------->
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
