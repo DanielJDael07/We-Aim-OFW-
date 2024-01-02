@@ -40,10 +40,7 @@
   .carousel-control-prev-icon, .carousel-control-next-icon{
     display: none !important;
   }
-  
-
- 
-  }
+ }
   
 
 
@@ -62,6 +59,13 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+
+
+@media screen and (max-width:425px) {
+  .about-us_pic {
+    height: 300px;
+  }
+} 
 
 
 
